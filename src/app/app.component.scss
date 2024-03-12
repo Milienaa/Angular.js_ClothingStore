@@ -1,0 +1,13 @@
+.gallery {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid: {
+        template: {
+            columns: repeat(3, 1fr);
+            rows: repeat(2, 1fr);
+        }
+        gap: 20px;
+    }
+}

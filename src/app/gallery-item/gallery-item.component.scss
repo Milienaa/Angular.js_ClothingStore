@@ -1,0 +1,45 @@
+.gallery__item {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    img {
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    background-color: #fff;
+    &__description {
+        margin: 0 20px;
+        .title {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+    
+        .params {
+            text-align: left;
+            padding: 5px;
+            
+        }
+    
+        .descr {
+            text-align: justify;
+            padding: 5px;
+        }
+
+        .price {
+            padding: 5px;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .remains {
+            padding: 5px;
+            background-color: #93ebc6d7;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+}
