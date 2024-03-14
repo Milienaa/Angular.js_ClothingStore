@@ -9,6 +9,6 @@
         </p>
         <p class="descr">{{ descr }}</p>
         <p class="price">Ціна: {{ price }}грн</p>
-        <p class="remains">Залишилось {{ remains }} шт.</p>
+        <p class="remains">Залишилось {{ remains | customQuantityPipe:['штука','штуки','штук'] }}</p>
     </div>
 </div>

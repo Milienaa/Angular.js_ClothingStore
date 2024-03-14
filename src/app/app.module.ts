@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { GalleryItemComponent } from './gallery-item/gallery-item.component';
+import { CustomQuantityPipePipe } from './custom-quantity-pipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryItemComponent
+    GalleryItemComponent,
+    CustomQuantityPipePipe
   ],
   imports: [
     BrowserModule
